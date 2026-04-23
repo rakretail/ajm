@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -413,7 +416,7 @@ function updateInsights(monthlyCounts, dailyTotal) {
     let topExec = Object.keys(monthlyCounts).reduce((a, b) => (monthlyCounts[a] || 0) > (monthlyCounts[b] || 0) ? a : b, "");
     if (topExec) messages.push(`👑 TOP GUN: ${topExec} is ruling the leaderboard!`);
 
-    insightEl.innerText = messages.join("        |        ") + "        |        ⚡ TEAM AJMAN: CONVERTING 'MAYBES' INTO 'INVOICES' SINCE 8:00 AM.        |        ";
+    insightEl.innerText = messages.join("        |        ") + "        |        ⚡ TEAM AJMAN: GROUTING THE GAP BETWEEN “MAYBE” AND “YES.”        |        ";
 }
 
 function calculatePeakHour(data) {
